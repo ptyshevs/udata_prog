@@ -24,7 +24,7 @@ def cnt_unchanged(orig, perm):
 
 
 if __name__ == '__main__':
-    s = "hello world"  # hello llohe
+    s = input("Enter string to permute:")
     s_perm = max_permute(s)
     cnt = cnt_unchanged(s, s_perm)
     print(s_perm, cnt, sep='\n')
